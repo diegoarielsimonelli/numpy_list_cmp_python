@@ -8,7 +8,6 @@
 # que aparecen en verde con el hashtag "#"
 
 # Ejercicios con comprensión de listas
-import random
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
