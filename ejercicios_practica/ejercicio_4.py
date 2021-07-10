@@ -24,11 +24,14 @@ if __name__ == '__main__':
     # reemplazar dicho str "no numérico" por 0
     # TIP: Recomendamos ver el método "isdigit" de strings
     # para aplicar en este caso.
-    list_numeros_str = ['5', '2', '3', '', '7', 'NaN']
-
-
+    list_numeros_str = ['5', '2', '3', '', '-7', 'NaN']
+    
+    lista_filtrada = [int(x) if x.isdigit() is True else 0 for x in list_numeros_str]
+    print(lista_filtrada)
     # ¿Ya terminaron el ejercicio? ¿Por qué no prueban
     # hacer negativo alguno de los números de la lista?
     # ¿Qué sucede con isdigit? Sorprendente no?
+
+    #al ser negativo los numeros isdigit devuelve 0.
 
     print("terminamos")

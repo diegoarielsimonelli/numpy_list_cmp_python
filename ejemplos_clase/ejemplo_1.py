@@ -32,7 +32,7 @@ def numpy_where_diff():
     # Ejemplos de uso del método where y diff
     print('Método Where')
 
-    # Crear un array numpy a partir de una lsita
+    # Crear un array numpy a partir de una lista
     l1 = list(range(10))
     v1 = np.asanyarray(l1)
 

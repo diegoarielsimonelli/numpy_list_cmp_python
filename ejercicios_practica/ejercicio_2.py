@@ -10,6 +10,9 @@
 # Ejercicios con lambda
 
 
+from random import random
+
+
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     
@@ -19,7 +22,9 @@ if __name__ == '__main__':
     # (len) de un string pasado como parámetro
 
     # len_string = lambda......
-
+    len_string = lambda x: len(x)
+    string="agua"
+    print(len_string(string))
     # 2)
     # Lista de string
     palabras = ['Inove', 'casa', 'programacion']
@@ -35,5 +40,6 @@ if __name__ == '__main__':
     # directamente la lambda.
 
     # palabras_len = list(map....)
-
+    palabras_len = list(map(lambda x: len(x),palabras))
+    print(palabras_len)
     print("terminamos")
